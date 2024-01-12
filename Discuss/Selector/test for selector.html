@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="selector_test.css"/>
+        <title>A test to dicuss different selectors</title>
+    </head>
+
+    <body>
+        <h1>Element Selector</h1>
+        <p>A paragraph</p>
+
+        <h1>ID Selector</h1>
+        <span id="latest">New!</span>
+
+        <h1>Class Selector</h1>
+        <a class="class"> Go Back</a>
+        <p class="class">Go Forward</p>
+
+        <h1>Element with Class Selector</h1>
+        <p class="classb">Another paragraph</p>
+
+        <h1>Descendant Selector & Child Selector</h1>
+        <div id="id">
+            <span>
+                <h2>This belongs to id but in a deeper level</h2>
+            </span>
+            <h2>This belongs to id</h2>
+            <div>
+              <h2>this belongs to id but in a deeper div</h2>
+              <p>a line</p>
+            </div>
+            <p>a line</p>
+        </div>
+        <div>
+            <h2>this doesn't belongs to any class</h2>
+        </div>
+
+        <h1>:Hover Pseudo-Class</h1>
+        <a href="link">Not a link, test for hover</a>
+    </body>
+</html>

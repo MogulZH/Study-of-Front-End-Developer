@@ -1,0 +1,38 @@
+#warning {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 10px;
+}
+
+#Menu {
+    color: purple;
+    text-align: center;
+}
+
+.type h2 {
+    display: inline;
+    color: red;
+    text-align: left;
+    padding: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
+    border: 4px solid red;
+    margin: auto;
+}
+
+.food {
+    padding: 20px;
+    margin: auto;
+}
+
+.image {
+    display: block;
+    width: 30%;
+    margin: auto;
+    margin-left: 1%;
+}
+
+p{
+    margin: 2px;
+    padding: 5px;
+}

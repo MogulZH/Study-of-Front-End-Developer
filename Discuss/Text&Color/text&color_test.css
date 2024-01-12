@@ -1,0 +1,31 @@
+#p_rgb {
+    color: rgb(255, 0, 0);
+}
+
+#p_rgba {
+    color: rgba(255, 0, 0, 0.6);
+}
+
+#p_hsl {
+    color: hsl(0, 100%, 40%);
+}
+
+#p_hex {
+    color: #FF0000;
+}
+
+#p_font {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+}
+
+#p_text {
+    text-transform: uppercase;
+    text-decoration: line-through red dotted 2.5px;
+    /*OR we can do it individually
+    text-decoration-line: line-through;
+    text-decoration-color: red;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 2.5px;
+    */
+}
